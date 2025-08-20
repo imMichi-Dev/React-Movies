@@ -1,0 +1,22 @@
+nav {
+  background-color: brown;
+}
+nav > div {
+  display: flex;
+  gap: 10px;
+  height: 20px;
+  padding: 20px;
+  align-items: center;
+}
+nav > div a {
+  color: beige;
+  text-decoration: none;
+  font-weight: 700px;
+  _hover{
+    color: red;
+  }
+}
+nav > div a:hover {
+
+    color: red;
+}
