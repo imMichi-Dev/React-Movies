@@ -43,13 +43,11 @@ const Populares = () => {
           )}
         </Row>
 
-        {/* 
-        🔹 Componente de paginación (comentado por ahora).
-        Permitiría cambiar de página y mostrar más resultados.
+        {/*Componente de paginación, Permitiría cambiar de página y mostrar más resultados.*/}
         <Row> 
-          <Paginacion actual={page} total={movies?.total_pages} />
+          <Paginacion actual={page} total={movies?.total_pages} onChange={(newPage)=>setPage(newPage)} />
         </Row> 
-        */}
+        
       </Container>
     </Template>
   )

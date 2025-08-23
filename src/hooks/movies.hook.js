@@ -52,7 +52,7 @@ export const getMovies = (
             .catch((error) => console.error(error))
             .then((response) => setData(response.data))
             .finally(() => setIsLoading(false))
-    }, [])
+    }, [page])
 
     return { data, isLoading }
 }
@@ -78,7 +78,7 @@ export const getPopularMovies = (page = 1) => {
             .catch((error) => console.error(error))
             .then((response) => setData(response.data))
             .finally(() => setIsLoading(false))
-    }, [])
+    }, [page])
 
     return { data, isLoading }
 }
@@ -101,7 +101,7 @@ export const getMovieDetails = (id) => {
             .catch((error) => console.error(error))
             .then((response) => setData(response.data))
             .finally(() => setIsLoading(false))
-    }, [])
+    }, [id])
 
     return { data, isLoading }
 }

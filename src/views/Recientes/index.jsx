@@ -4,6 +4,7 @@ import Template from '../Template'
 import { getMovies } from '../../hooks/movies.hook'
 import { MovieCard } from '../../components/MovieCard'
 import { Container, Row } from 'react-bootstrap'
+import { Paginacion } from '../../components/Paginacion'
 
 // Componente principal que renderiza los lanzamientos más recientes
 const Recientes = () => {
@@ -38,7 +39,7 @@ const Recientes = () => {
         <Row>
           {/* Mapea la lista de películas y genera un MovieCard por cada una */}
           {movies?.results?.map((movie) =>
-            <MovieCard 
+            <MovieCard
               key={movie.id}               // Siempre se recomienda usar "key" en listas
               id={movie.id}                // ID de la película
               title={movie.title}          // Título de la película
@@ -46,6 +47,12 @@ const Recientes = () => {
             />
           )}
         </Row>
+
+        {/*Componente de paginación, Permitiría cambiar de página y mostrar más resultados.*/}
+        <Row>
+          <Paginacion actual={page} total={movies?.total_pages} onChange={(newPage) => setPage(newPage)} />
+        </Row>
+
       </Container>
     </Template>
   )
