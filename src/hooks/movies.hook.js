@@ -5,9 +5,7 @@ import { useEffect, useState } from "react"
 const api = "https://api.themoviedb.org/3"
 
 // Token de autenticación de TMDB (Bearer)
-const api_token = "eyJhbGciOiJIUzI1NiJ9...." 
-// Clave de API (no se está usando en este caso, ya que se usa el token Bearer)
-const api_key = "ca123136f993fb36ce7e6c9f861def24"
+const api_token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYTEyMzEzNmY5OTNmYjM2Y2U3ZTZjOWY4NjFkZWYyNCIsIm5iZiI6MTc1NTcxMzg0Ni45NDksInN1YiI6IjY4YTYxMTM2YmMyZWE1YjA2ZmQ1NTAxOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.TZwoMlpVDbr-tJX4KtbIrhJvHW9PfluJH3dCKhj8oCs"
 
 // Headers de autenticación que se envían en cada request
 const headers = {
