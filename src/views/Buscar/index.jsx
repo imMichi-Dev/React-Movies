@@ -51,7 +51,7 @@ const Buscar = () => {
       <br />
 
       {/* Resultados de búsqueda */}
-      <Container className="mt-4">
+      <Container className="containerBody mt-4">
         <Row>
           {/* Itera sobre los resultados y renderiza una tarjeta por cada película */}
           {data?.results?.map((movie) => (

@@ -14,7 +14,7 @@ const Favoritos = () => {
       <br />
 
       {/* Contenedor de las películas */}
-      <Container className="mt-4">
+      <Container className="containerBody mt-4">
         <Row>
           {/* Itera sobre los resultados y renderiza una tarjeta para cada película */}
           {favorites?.map((movie) => (

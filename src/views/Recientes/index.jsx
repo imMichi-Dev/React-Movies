@@ -41,7 +41,7 @@ const Recientes = () => {
       <Container className="mt-4">
         <Row>
           {/* Mapea la lista de películas y genera un MovieCard por cada una */}
-          {movies?.results?.map((movie) => (
+          {movies?.results?.filter((movie) => movie?.poster_path).map((movie) => (
             <MovieCard
               key={movie.id} // Siempre se recomienda usar "key" en listas
               id={movie.id} // ID de la película
