@@ -31,7 +31,7 @@ export const MovieBlock = ({ movies, titulo }) => {
         {/* Lista que contiene cada película */}
         <ListGroup variant="flush">
           {/* Itera sobre las películas recibidas en movies.results */}
-          {movies?.results?.map((movie, idx) => (
+          {movies?.results?.filter((movie) => movie?.poster_path).map((movie, idx) => (
             <ListGroup.Item
               key={idx} // Clave única para React
               className="movie-item"
