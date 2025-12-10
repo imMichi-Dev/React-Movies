@@ -1,12 +1,63 @@
-# React + Vite
+# Peliculas TP 🎬
+Hi there!✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is Michi-Dev 🖤
 
-Currently, two official plugins are available:
+🐾 newHere
+🌊 wavesCounter
+🌙 MidnightLover
+🐱 crazyCatLady
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introducción: 🐒
+Proyecto de **exploración y búsqueda de películas**. Se trata de una Single Page Application (SPA) desarrollada con React que permite a los usuarios navegar entre estrenos, películas populares y realizar búsquedas dinámicas.
 
-## Expanding the ESLint configuration
+El objetivo fue crear una interfaz intuitiva y completa, manejando el enrutamiento dinámico (URL), paginación de datos y consumo de una API externa de películas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Funcionalidades principales:  🎛
+
+La aplicación cumple con los siguientes requerimientos y vistas:
+
+#### 🧭 Navegación Global
+- **Menú de Navegación:** Acceso rápido a las vistas Home, Últimos Lanzamientos, Populares y Buscador.
+- **Footer:** Presente en todas las vistas.
+
+#### 🏠 Vista Home
+- **Slider Principal:** Carrusel con al menos 5 películas recomendadas y su descripción.
+- **Listados Destacados:** Dos secciones mostrando 10 películas en cada una.
+
+#### 🎥 Vista de Detalles
+- **Información Completa:** Al hacer click en una película, se visualiza el poster, imagen de fondo y descripción.
+- **Trailer:** Botón funcional para reproducir el trailer de la película.
+
+#### 🆕 Vista Últimos Lanzamientos
+- **Grilla de Películas:** Listado de al menos 20 películas en formato de tarjetas con título y acceso a detalles.
+- **Paginación:** Sistema para navegar los resultados de 20 en 20.
+
+#### ⭐ Vista Populares
+- **Listado:** Mismas características que "Últimos Lanzamientos" pero filtrando por popularidad.
+
+#### 🔍 Vista Buscador
+- **Filtro en Tiempo Real:** Input que permite buscar películas. Muestra resultados coincidentes.
+- **Enrutamiento Dinámico:** La URL se actualiza automáticamente según la navegación del usuario.
+
+## Recursos: 💊
+- [TMDB API](https://www.themoviedb.org/documentation/api "API Docs")
+- [Vite](https://vite.dev/)
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+## Enlace: 🎿
+Dale click al siguiente enlace para ver el proyecto en vivo:
+[Peliculas TP](https://react-movies-atsc.vercel.app/recientes)
+
+## Herramientas usadas: 🔔
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![VisualStudioCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+
+
